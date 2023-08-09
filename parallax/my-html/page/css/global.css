@@ -1,0 +1,22 @@
+
+.swiper-pagination-bullet {
+    transform: rotate(-45deg) !important;
+    width: 12px !important;
+    height: 12px !important;
+    margin: 8px !important;
+}
+
+.swiper-pagination {
+    order: 1 !important;
+    -webkit-box-pack: center !important;
+    justify-content: flex-start !important;
+}
+
+.swiper {
+    padding-bottom: 5px !important;
+}
+
+.swiper-slide img {
+    width: 520px !important;
+    height: 600px !important;
+}
