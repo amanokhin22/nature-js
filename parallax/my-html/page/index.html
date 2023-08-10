@@ -41,7 +41,7 @@
             <span>HOME</span>
         </div>
         <div class="col-lg-5 col-md-6 col-sm-12">
-            <div class="swiper" id="swiper" >
+            <div class="swiper" id="swiper">
                 <div class="swiper-container" style="margin-bottom: 100px">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" id="swiper-slide">
@@ -69,14 +69,14 @@
             <div class="row images" id="images">
                 <div class="col left-images" id="left-images">
                     <div class="col">
-                        <img class="img-fluid" src="../../src/first-image.jpg" alt="image"/>
+                        <img class="img-fluid first-img" src="../../src/first-image.jpg" alt="image"/>
                     </div>
                     <div class="col">
-                        <img class="img-fluid" src="../../src/second-image.jpg" alt="image"/>
+                        <img class="img-fluid second-img" src="../../src/second-image.jpg" alt="image"/>
                     </div>
                 </div>
                 <div class="col align-self-stretch d-flex justify-content-center" style="max-height: 100%;">
-                    <img class="img-fluid" src="../../src/third-image.jpg" alt="image"/>
+                    <img class="img-fluid third-img" src="../../src/third-image.jpg" alt="image"/>
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@
     <div class="row problems">
         <div class="col">
             <img width={100} height={145} src="../../src/one.svg" alt="number one"/>
-        <span class="problem-description">Habitat destruction (also termed habitat loss and habitat reduction)
+            <span class="problem-description">Habitat destruction (also termed habitat loss and habitat reduction)
             is the process by which a natural habitat becomes incapable of supporting
             its native species. The organisms that previously inhabited the site are
             displaced or dead, thereby reducing biodiversity and species abundance.
@@ -120,6 +120,155 @@
         </div>
     </div>
 </section>
+<section class="container">
+    <h1 class="title-wonders">Wonders of nature</h1>
+    <div class="row wonders">
+        <div class="col-lg-12 col-md-12 col-sm-12 top-wonders">
+            <img src="../../src/amazonia.jpg" alt="wonders">
+            <img src="../../src/vietnam.jpg" alt="wonders">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 middle-wonders">
+            <img src="../../src/iguasu.jpg" alt="wonders">
+            <img src="../../src/komodo.jpg" alt="wonders">
+            <img src="../../src/korea.jpg" alt="wonders">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 bottom-wonders">
+            <img src="../../src/table.jpg" alt="wonders">
+            <img src="../../src/philip.jpg" alt="wonders">
+        </div>
+    </div>
+    <a class="a-class" href="https://en.wikipedia.org/wiki/New_7_Wonders_of_Nature">
+        <button class="glow-on-hover">See</button>
+    </a>
+</section>
+<section class="container form-container">
+    <h1 class="form-title">
+        Call us
+    </h1>
+    <div class="row">
+        <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+            <div class=block">
+                <form class="modalForm">
+                    <label class="FormInputStyled">
+                        <input
+                                type="text"
+                                placeholder="Имя"
+                                class="formInput"
+                        />
+                    </label>
+                    <label class="FormInputStyled">
+                        <input
+                                type="tel"
+                                placeholder="Номер телефона"
+                                class="formInput"
+                        />
+                    </label>
+                    <label class="FormInputStyled">
+                        <input
+                                type="email"
+                                placeholder="E-mail"
+                                class="formInput"
+                        />
+                    </label>
+                    <label class="FormInputStyled">
+                        <input
+                                type="text"
+                                placeholder="Интересующий товар/услуга"
+                                class="formInput"
+                        />
+                    </label>
+                    <label class="FormInputStyled">
+                            <textarea
+                                    placeholder="Сообщение"
+                                    id="text"
+                                    class="formInputLast"></textarea>
+                    </label>
+                    <span class="confidentiality">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</span>
+                    <div class="parent-div-form-btn" >
+                        <div class="form-btn">
+                            <a href="#">SEND</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-xl-8 col-lg-7">
+            <div class="connect">
+                <img  height={370} src="../../src/connect.jpg" alt="connect"/>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="container-fluid">
+    <div class="row" style="background-color: #2c2c2c;">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="row upper-block">
+                <div class="col-xl-3 col-lg-3 col-md-3 mx-auto my-2 my-sm-3 my-lg-4 p-3">
+                    <img class="bottom-logo" src="../../src/logoBottom.svg" alt="logoBottom"/>
+                </div>
+                <div class="col mx-auto my-2 my-sm-3 my-lg-4 p-3">
+                    <div class="block">
+                        <span class="block_title">Информация</span>
+                        <div class="pages">
+                            <a href="#"><span class="block_part">Главная</span></a>
+                            <a href="#"><span class="block_part">Галерея</span></a>
+                            <a href="#"><span class="block_part">Проекты</span></a>
+                            <a href="#"><span class="block_part">Сертификаты</span></a>
+                            <a href="#"><span class="block_part">Контакты</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto my-2 my-sm-3 my-lg-4 p-3">
+                    <div class="contacts">
+                        <div class="block">
+                            <span class="block_title">Контакты</span>
+                            <div class="little_block">
+                                <span>
+                                    <img src="../../src/place.svg" alt="place"/>
+                                </span>
+                                <div class="address">
+                                    <span class="block_part">100000, Республика  Казахстан,</span>
+                                    <span class="block_part">г. Караганда, ул. Телевизионная 10</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="little_block">
+                            <span class="block_part"><img src="../../src/phone.svg" alt="phone"/></span>
+                            <a href="tel:+380000000000" class="block_part">+38 (000) 000 00 00</a>
+                        </div>
+                        <div class="little_block">
+                            <span class="block_part"><img src="../../src/mail.svg" alt="mail"/></span>
+                            <a href="mailto:mail@gmail.com" class="block_part">mail@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto my-2 my-sm-3 my-lg-4 p-3">
+                    <div class="block">
+                        <span class="block_title">Социальные сети</span>
+                        <div class="little_block">
+                            <a href={"https://www.facebook.com/unitednations/"}>
+                                <img src="../../src/facebook.svg" alt="facebook"/>
+                            </a>
+                            <a href={"https://twitter.com/UN"}>
+                                <img src="../../src/twitter.svg" alt="twitter"/>
+                            </a>
+                            <a href={"https://www.linkedin.com/company/united-nations/about/"}>
+                                <img src="../../src/LinkedIn.svg" alt="linkedIn"/>
+                            </a>
+                            <a href={"https://www.pinterest.com/unradioru/"}>
+                                <img src="../../src/pininterest.svg" alt="pininterest"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="bottom_block">© 2019 Digital Project. All rights reserved.</div>
+        </div>
+    </div>
+
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
